@@ -152,7 +152,7 @@ layers:
   - {t: ▽, type: trans}
   - DELETE
   - '|'
-  - {t: ▽, type: trans}
+  - '~'
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
