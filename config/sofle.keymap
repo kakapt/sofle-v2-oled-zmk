@@ -49,7 +49,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+                <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
         lower_layer {
@@ -73,7 +73,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+                <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
         raise_layer {
@@ -96,7 +96,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+                <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
         adjust_layer {
@@ -109,10 +109,10 @@
 
             label = "adjust";
             bindings = <
-&bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none  &none  &none  &none  &none  &none
-&ext_power EP_TOG  &none         &none         &none         &none         &none                         &none  &none  &none  &none  &none  &none
-&none              &none         &none         &none         &none         &none                         &none  &none  &none  &none  &none  &none
-&none              &none         &none         &none         &none         &none         &none    &none  &none  &none  &none  &none  &none  &none
+&bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none  &none  &none  &none              &none  &none
+&ext_power EP_TOG  &none         &none         &none         &none         &none                         &none  &none  &none  &none              &none  &none
+&none              &none         &none         &none         &none         &none                         &none  &none  &none  &kp K_SCREENSAVER  &none  &none
+&none              &none         &none         &none         &none         &none         &none    &none  &none  &none  &none  &none              &none  &none
                                  &none         &none         &none         &none         &none    &none  &none  &none  &none  &none
             >;
         };
