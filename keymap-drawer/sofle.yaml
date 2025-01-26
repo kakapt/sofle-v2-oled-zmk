@@ -138,9 +138,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESC
+  - RECORD
+  - TAB
   - {t: ▽, type: trans}
   - PAGE DOWN
   - PAGE UP
