@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
   default:
-  - KP PLUS
+  - SCREENSAVER
   - '1'
   - '2'
   - '3'
@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '`'
+  - PRINTSCREEN
   - ESC
   - Q
   - W
@@ -85,7 +85,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '-'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -97,20 +97,20 @@ layers:
   - KP MULTIPLY
   - (
   - )
-  - _
+  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '{'
-  - '}'
   - KP PLUS
   - '='
-  - '`'
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -157,14 +157,14 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT
-  - PRINTSCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - _
+  - '{'
+  - '}'
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -217,7 +217,7 @@ layers:
   - ''
   - ''
   - ''
-  - SCREENSAVER
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
