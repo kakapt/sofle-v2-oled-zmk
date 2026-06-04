@@ -14,8 +14,11 @@
 ---
 include:
   - board: nice_nano_v2
+    snippet: nrf52840-nosd
     shield: sofle_left
   - board: nice_nano_v2
+    snippet: nrf52840-nosd
     shield: sofle_right
   - board: nice_nano_v2
+    snippet: nrf52840-nosd
     shield: settings_reset
