@@ -17,7 +17,7 @@ include:
     snippets: 
       - nrf52840-nosd
       - studio-rpc-usb-uart
-      cmake-args: -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
     shield: sofle_left
   - board: nice_nano_v2
     snippets: 
