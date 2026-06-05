@@ -19,12 +19,10 @@ include:
       - studio-rpc-usb-uart
       cmake-args: -DCONFIG_ZMK_STUDIO=y
     shield: sofle_left
-
   - board: nice_nano_v2
     snippets: 
       - nrf52840-nosd
     shield: sofle_right
-
   - board: nice_nano_v2
     snippets: 
       - nrf52840-nosd
